@@ -35,7 +35,7 @@ void loop()
 
     Serial.print(ALTITUD); // Imprime los valores a traves del puerto serial
     Serial.print(",");
-    Serial.print(AcX);
+    Serial.print(AcX); // Imprime el valor de la aceleración a traves del puerto serial
     Serial.print(",");
     Serial.print(AcY);
     Serial.print(",");
@@ -49,5 +49,5 @@ void loop()
     Serial.print(",");
     Serial.println(TEMPERATURA); 
   }
-  delay(50);
+  delay(10);
 }

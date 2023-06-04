@@ -80,5 +80,5 @@ void loop()
     Serial.print(",");
     Serial.println (TEMPERATURA);
 
-delay(50); 
+delay(10); 
 }
