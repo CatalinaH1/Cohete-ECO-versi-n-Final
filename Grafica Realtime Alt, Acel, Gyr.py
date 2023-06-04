@@ -52,7 +52,7 @@ class SerialPlot(QWidget):  # Define la clase SerialPlot que hereda QWidget
         self.ser.flush()
 
         # Variables para almacenar los datos
-        num_points = 1000  # Arreglo de ceros (Puntos) a mostrar en la gráfica
+        num_points = 1100  # Arreglo de ceros (Puntos) a mostrar en la gráfica
         self.x_data = np.zeros(num_points)  # Tiempo Inicializa arreglo de ceros con la longitud defninida 1100
         self.y_data_1 = np.zeros(num_points)  # Altura
         self.y_data_2 = np.zeros(num_points)  # AcX
