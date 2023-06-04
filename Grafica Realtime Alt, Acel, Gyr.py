@@ -158,7 +158,7 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)  # Crea una instancia de la aplicación QApplication.
     app.setStyle("Fusion")
     palette = QPalette() #Define la paleta de colores de la aplicación.
-    palette.setColor(QPalette.Window, QColor(35, 35, 35)) # crea un objeto de color utilizando los valores RGB (rojo, verde, azul) En este caso gris oscuri
+    palette.setColor(QPalette.Window, QColor(53, 53, 53)) # crea un objeto de color utilizando los valores RGB (rojo, verde, azul) En este caso gris oscuri
     app.setPalette(palette) # Aplica la paleta de colores a la aplicación con setpalette
     window = SerialPlot()  # Crea una instancia de la clase SerialPlot
     sys.exit(app.exec_())  # Sale del programa cuando se cierra la ventana
